@@ -142,6 +142,35 @@ body {
     z-index: 2;
 }
 
+#slide_description {
+    display: inline-block;
+    position:relative;
+    margin-bottom: 20px;
+
+    text-align: center;
+    background: rgba(7, 13, 56, 0.664); /* Semi-transparent background */
+    color: #fff; /* White text */
+    padding: 10px 10px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+#slide_label:hover {
+    background-color: #fdfdfdc5; /* Change to your preferred color */
+    color: #943025;
+    border-radius: 5px;
+    
+}
+
+#slide_description:hover {
+    background-color: #ffffff9c; /* Change to your preferred color */
+    color: rgba(7, 13, 56, 0.664);
+    border-radius: 5px;
+    
+}
+
+
 .card-container {
     display: flex;
     justify-content: center;
@@ -170,6 +199,7 @@ body {
 
 .image-card .card-title {
     position:relative;
+    display: flex;
     background:#bc1907ab;
     color: white;
     padding: 5px 10px;
