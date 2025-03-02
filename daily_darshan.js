@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const filterSelect = document.getElementById("filter");
 
     const images = [
-        { src: "images/daily_darshan/lord1.jpg", category: "Swaminarayan" },
+        { src: "images/daily_darshan/lord1.jpg", category: "Morning", category: "Swaminarayan" },
         { src: "lord2.jpg", category: "Evening" },
         { src: "lord3.jpg", category: "Festival" },
         { src: "lord4.jpg", category: "Morning" },
