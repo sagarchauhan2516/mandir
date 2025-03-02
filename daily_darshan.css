@@ -1,0 +1,72 @@
+/* General Styles */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    margin-top: 80px;
+}
+
+label{
+    color: #d7d6d6;
+    margin: 5px;
+}
+
+h2 {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* Navbar Styles */
+.navbar {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s ease-in-out;
+}
+.navbar.scrolled {
+    background-color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+}
+
+/* Filters */
+.container .form-control {
+    border-radius: 8px;
+}
+
+/* Gallery Grid */
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Image Cards */
+.image-card {
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    background: white;
+}
+.image-card:hover {
+    transform: scale(1.05);
+}
+.image-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+.image-card .caption {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-align: center;
+    padding: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: white;
+}

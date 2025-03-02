@@ -1,9 +1,138 @@
-<html>
-  <Head>
-    <title>Shree Swaminarayan Manin Tample - Mahuvadham</title>
-  </Head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title style="color: #cb4f41;">Shree Swaminarayan Manin Tample - Mahuvadham</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+<!-- AOS CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 
-  <body>
-    <h2>Jay Swaminarayan</h2>
-  </body>
+
+</head>
+
+<body>
+   <nav class="navbar navbar-expand-lg navbar-light bg-light" data-aos="fade-down" data-aos-duration="1000">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="gharsabha.png" alt="" width="55" height="30">
+    </a>
+    <a class="navbar-brand" href="index.html">Shree Swaminarayan Mukhya Mandir - Mahuvadham</a>
+    <button class="navbar-toggler float-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="header_button">
+        <li class="nav-item">
+          <a class="nav-link float-right" href="index.html">Mandir History</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle float-right" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Gallery
+          </a>
+          <ul class="dropdown-menu float-right" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Mandir Images</a></li>
+            <li><a class="dropdown-item" href="#">Daily Darshan</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Events</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="d-flex" >
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-$orange-600 float-right" type="submit">Search</button>
+      </form>
+
+      <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginModal" id="login_button">Login / Signup</button>
+      
+    </div>
+  </div>
+</nav>
+
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel" data-aos="fade-up" data-aos-duration="1200">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner" id="slideshow">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="guru3.JPG" class="d-block " alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 id="slide_label">First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="guru1.JPG" class="d-block" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 id="slide_label">Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="guru2.JPG" class="d-block" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 id="slide_label">Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<section data-aos="fade-up" data-aos-duration="1200" data-aos-delay="100" data-aos-easing="ease-in-out" id="about">
+  <h2>Shree Swaminarayan Mukhya Mandir - Mahuvadham</h2>
+  <p>75 years old tample of Lord Shree Swaminarayan which has reconstructed by Sadguru Shree Nityaswarupdasji Swami.</p>
+</section>
+
+
+<div class="card-container"  data-aos="fade-in" data-aos-duration="1500">
+  <div class="card" >
+    <img src="swaminarayan_bhagvan.jpg" class="card-img-top" alt="Daily Darshan">
+    <div class="card-body">
+      <h5 class="card-title">Daily Darshan</h5>
+      <p class="card-text">Daily Darshan of Lord Shree Swaminarayan, Lakshmi-Narayandev, Ghanshyam Maharaj, and Harikrushnamaharaj.</p>
+      <a href="#" class="btn btn-primary">Go to Darshan</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="guru1.JPG" class="card-img-top" alt="Mandir History">
+    <div class="card-body">
+      <h5 class="card-title">Mandir History</h5>
+      <p class="card-text">Learn about the history and significance of Shree Swaminarayan Mukhya Mandir - Mahuvadham.</p>
+      <a href="#" class="btn btn-primary">Explore History</a>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="guru1.JPG" class="card-img-top" alt="Mandir History">
+    <div class="card-body">
+      <h5 class="card-title">Mandir History</h5>
+      <p class="card-text">Learn about the history and significance of Shree Swaminarayan Mukhya Mandir - Mahuvadham.</p>
+      <a href="#" class="btn btn-primary">Explore History</a>
+    </div>
+  </div>
+  
+</div>
+
+<script src="script.js"></script>
+<!-- AOS JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</body>
 </html>
