@@ -11,7 +11,12 @@
     background-color: #3e1d2b;
     max-width: 100%;
     margin: auto;
-    padding: 10px; /* Add some space around */
+    /*padding: 20px; /* Add some space around */
+    margin: 20px;
+    margin-top: 10px;
+    
+   /* padding-top: 10px;*/
+    padding-bottom: 0px;
 }
 
 /* Ensure carousel has a fixed height */
@@ -23,8 +28,10 @@
 .carousel-item img {
     width: 100%;
     height: 500px; /* Ensure uniform size */
+    border: 13px solid #ffffff;
     object-fit: cover;
     opacity: 0; /* Initially hide */
+    border-radius: 7px;
     animation: fadeIn 2s ease-in-out forwards; /* Apply fade-in animation */
 }
 
@@ -175,8 +182,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 30px;
-    margin-top: 20px;
-    
+    margin: 20px;
   }
 
   .image-card {
